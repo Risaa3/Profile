@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val btnhobby : CardView = findViewById(R.id.hobby)
 
         btnprofile.setOnClickListener {
-            val intent = Intent(this, ActivityProfile::class.java)
+            val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
 

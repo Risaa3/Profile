@@ -12,13 +12,22 @@
         android:theme="@style/Theme.Lailatulrisa"
         tools:targetApi="31">
         <activity
-            android:name=".Portofolio_list"
+            android:name=".ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity_Portofolio"
+            android:name=".Activity_skill"
             android:exported="false" />
         <activity
-            android:name=".profileActivity"
+            android:name=".EducationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HobbyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".portofolioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityProfileActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
